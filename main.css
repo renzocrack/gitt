@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to right, #fdc830, #f37335); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#logo{
+    width: 130px;
+    height: 40px;
+}
+#img-real{
+    height: 270px;
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Anton', sans-serif;
+    text-decoration-line: underline;
+
+}
+h2,h3,h4{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+}
+.card-body{
+    border-radius: 10px;
+}
+
+#fondo-banner{
+    margin-top: 70px;
+    background: url(img/banner.jpg)no-repeat center;
+    background-size: cover;
+    height: 300px;
+}
+#oscuridad{
+    background:rgba(0,0,0,.5);
+    height: 300px;
+    width: 100%;
+    z-index: -2;
+}
+#oscuridad>p{
+    padding-top: 50px;
+    text-align: center;
+    
+}
